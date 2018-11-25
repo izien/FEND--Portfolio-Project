@@ -728,9 +728,18 @@ left: 0px;
 	cursor: pointer;
 }
 
-.phone-us {
-	padding-top: 1em;
-}
-.email-us {
-	padding-top: .5em;
-}
+/****** Media queries
+***************************/
+
+
+@media (max-width: 320px) {
+		width: 85%;
+	}
+
+/* For Tablets and larger screens
+****************/
+
+@media (min-width: 768px) {
+		width: 660px;
+		height: 680px;
+	}
